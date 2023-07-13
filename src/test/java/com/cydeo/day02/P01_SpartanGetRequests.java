@@ -30,7 +30,7 @@ public class P01_SpartanGetRequests {
 
         //print the response body
         //response.prettyPrint();
-
+   
         //how to get status code
         int actualStatusCode = response.statusCode();
         Assertions.assertEquals(200,actualStatusCode);

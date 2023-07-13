@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class P01_simpleGetRequest {
 
-    String url = "http://18.207.211.65:8000/api/spartans";
+    String url = "http://184.73.36.228:8000/api/spartans";
 
     /*
     When user send request to /api/spartans endpoint
@@ -18,7 +18,7 @@ public class P01_simpleGetRequest {
     @Test
     public void simpleRequest(){
         //send request to url and get response as Response interface
-       Response response = RestAssured.get(url);
+        Response response = RestAssured.get(url);
         System.out.println("response.statusCode() = " + response.statusCode());
 
         //verify that status code is 200

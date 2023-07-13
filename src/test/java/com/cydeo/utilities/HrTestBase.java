@@ -8,6 +8,6 @@ public abstract class HrTestBase {
     @BeforeAll
     public static void init(){
         //MyIpAddress:1000/ords/hr
-        RestAssured.baseURI="http://18.207.211.65:1000/ords/hr";
+        RestAssured.baseURI="http://184.73.36.228:1000/ords/hr";
     }
 }
